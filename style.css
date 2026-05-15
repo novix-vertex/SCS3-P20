@@ -17,6 +17,7 @@ main {
     width: 100%;
     overflow: hidden;
     color: #fff;
+    padding:20px;
 
     display: grid;
     gap: 10px;
@@ -473,11 +474,16 @@ main {
 .section9 .discover-btn {
     background-color: #FEC9D0;
     color: #151515;
-    padding: 5px 10px;
+    padding: 8px 20px;
     border: none;
     border-radius: 25px;
+    font-weight: 500;
+    font-size:14px;
 }
 
 .section9 .discover-btn i {
     color: #151515;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size:14px;
 }
