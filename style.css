@@ -563,7 +563,7 @@ main {
 .section5 .engagement-rate {
     position: absolute;
     right: 3%;
-    bottom:0;
+    bottom: 0;
 }
 
 .section5 .engagement-rate .content .heart {
@@ -597,6 +597,16 @@ main {
 .section5 .engagement-rate .bottom-content i {
     color: #3B9D57;
     font-size: 12px;
+}
+
+.section5 .donut {
+    color: #f44f75;
+    font-weight: bolder;
+    font-size: 14px;
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+
 }
 
 .section6 {
