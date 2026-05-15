@@ -21,15 +21,15 @@ main {
     display: grid;
     gap: 10px;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr .75fr 0.25fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr .3fr .7fr 1fr;
 
     grid-template-areas:
-        "progress views users team"
-        "progress dashboard dashboard team"
-        "girls dashboard dashboard team"
-        "girls dashboard dashboard logo"
-        "girls fonts explore logo";
+        "progress views views users team"
+        "progress dashboard dashboard dashboard team"
+        "girls dashboard dashboard dashboard team"
+        "girls dashboard dashboard dashboard logo"
+        "girls fonts explore explore logo";
 }
 
 .section {
@@ -71,12 +71,78 @@ main {
 
 .section7 {
     grid-area: fonts;
-    background-color: yellowgreen;
+    background-color: #FCF8F9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-around;
+    color: #151515;
+}
+
+.section7 .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section7 .top .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section7 .top .font-visual {
+    background-color: #FCE2E4;
+    padding: 5px;
+    border-radius: 10px;
+    color: #151515;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section7 .center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.section7 .center .color-pallette:nth-child(1) {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section7 .center .color-pallette:nth-child(2) {
+    background-color: #B2B2B2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section7 .center .color-pallette:nth-child(3) {
+    background-color: #FE778E;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section7 .center .color-pallette:nth-child(4) {
+    background-color: #FFD5DA;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.section7 .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .section8 {
     grid-area: explore;
-    background-color: #fff;
+    background-color: #FCF8F9;
 
     display: flex;
     justify-content: space-between;
@@ -121,7 +187,7 @@ main {
 
 .section9 {
     grid-area: logo;
-    background-color: #fff;
+    background-color: #FCF8F9;
 
     display: flex;
     flex-direction: column;
