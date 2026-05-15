@@ -450,21 +450,73 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:0px;
-    position:relative;
+    padding: 0px;
+    position: relative;
+
+    color: #151515;
 }
-.section5 .circle{
-    width:auto;
+
+.section5 .circle {
+    width: auto;
     aspect-ratio: 1/1;
-    height:100%;
+    height: 100%;
     border-radius: 50%;
-    background:radial-gradient(#FCF5F4,#FEC9D0,#FEC9D0);    
+    background: radial-gradient(#FCF5F4, #FEC9D0, #FEC9D0);
 }
-.section5 .hero-girl{
-    position:absolute;
-    bottom:0;
-    height:110%;
+
+.section5 .hero-girl {
+    position: absolute;
+    bottom: 0;
+    height: 110%;
 }
+
+.section5 .graph {
+    background: #FCF8F9;
+    border: none;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px;
+
+    width:200px;
+    aspect-ratio: 16/9;
+
+    position: absolute;
+}
+
+.section5 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.section5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.section5 .project-growth{
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+
+}
+.section5 .conversion-age{
+    top:20px;
+    right:50px;
+}
+
+.section5 .content h4 {
+    font-weight: 550;
+    font-size: 14px;
+}
+
 .section6 {
     grid-area: girls;
     background-color: #1E1E1E;
