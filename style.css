@@ -502,15 +502,15 @@ main {
 }
 
 .section5 .project-growth {
-    top: 50%;
+    top: 30%;
     left: 50px;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
 
 }
 
 .section5 .conversion-age {
-    top: 20px;
-    right: 50px;
+    top: 5%;
+    right: 5%;
 }
 
 .section5 .content h4 {
@@ -530,8 +530,8 @@ main {
     gap: 10px;
 
     position: absolute;
-    bottom: 20px;
-    left: 50px;
+    bottom: 50px;
+    left: 15%;
 }
 
 .section5 .total-plays i {
