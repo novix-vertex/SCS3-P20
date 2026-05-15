@@ -482,7 +482,7 @@ main {
     gap: 5px;
     padding: 10px;
 
-    width:200px;
+    width: 200px;
     aspect-ratio: 16/9;
 
     position: absolute;
@@ -501,20 +501,63 @@ main {
     object-fit: contain;
 }
 
-.section5 .project-growth{
+.section5 .project-growth {
     top: 50%;
     left: 50px;
     transform: translateY(-50%);
 
 }
-.section5 .conversion-age{
-    top:20px;
-    right:50px;
+
+.section5 .conversion-age {
+    top: 20px;
+    right: 50px;
 }
 
 .section5 .content h4 {
     font-weight: 550;
     font-size: 14px;
+}
+
+.section5 .total-plays {
+    background-color: #FCF8F9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.section5 .total-plays i {
+    background: #f44f75;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    color: #FCF8F9;
+}
+
+.section5 .total-plays .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section5 .total-plays .content h4 {
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.section5 .total-plays .content h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #151515;
 }
 
 .section6 {
