@@ -35,6 +35,8 @@ main {
 .section {
     min-width: 0;
     min-height: 0;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .section1 {
@@ -74,7 +76,47 @@ main {
 
 .section8 {
     grid-area: explore;
-    background-color: tomato;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section8 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.section8 img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.section8 h3 {
+    font-size: 20px;
+    color: #151515;
+}
+
+.section8 h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #151515;
+}
+
+.section8 .explore-btn {
+    background-color: #151515;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+.section8 .explore-btn i {
+    color: #fff;
 }
 
 .section9 {
@@ -85,10 +127,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:5px;
-
-    border-radius: 20px;
-    padding: 20px;
+    gap: 5px;
 }
 
 .section9 img {
@@ -107,7 +146,7 @@ main {
     font-size: 14px;
     font-weight: 500;
     color: #151515;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .section9 .discover-btn {
