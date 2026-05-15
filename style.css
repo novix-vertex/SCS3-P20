@@ -560,6 +560,45 @@ main {
     color: #151515;
 }
 
+.section5 .engagement-rate {
+    position: absolute;
+    right: 3%;
+    bottom:0;
+}
+
+.section5 .engagement-rate .content .heart {
+    height: 30px;
+    width: 30px;
+    background: #FCE2E4;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.section5 .engagement-rate .bottom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 5px;
+}
+
+.section5 .engagement-rate .bottom-content h2 {
+    font-size: 20px;
+}
+
+.section5 .engagement-rate .bottom-content h5 {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.section5 .engagement-rate .bottom-content h3,
+.section5 .engagement-rate .bottom-content i {
+    color: #3B9D57;
+    font-size: 12px;
+}
+
 .section6 {
     grid-area: girls;
     background-color: #1E1E1E;
