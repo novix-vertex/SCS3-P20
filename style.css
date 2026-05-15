@@ -446,8 +446,25 @@ main {
 .section5 {
     grid-area: dashboard;
     background-color: #FCE5E6;
-}
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+    position:relative;
+}
+.section5 .circle{
+    width:auto;
+    aspect-ratio: 1/1;
+    height:100%;
+    border-radius: 50%;
+    background:radial-gradient(#FCF5F4,#FEC9D0,#FEC9D0);    
+}
+.section5 .hero-girl{
+    position:absolute;
+    bottom:0;
+    height:110%;
+}
 .section6 {
     grid-area: girls;
     background-color: #1E1E1E;
