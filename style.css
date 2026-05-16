@@ -1,8 +1,12 @@
+@font-face {
+    font-family: google-sans;
+    src: url(assets/fonts/GoogleSans-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: helvetica;
+    font-family: google-sans;
 }
 
 html,
@@ -61,6 +65,7 @@ main {
 .section1 .top-content h4 {
     font-weight: 550;
     font-size: 12px;
+    line-height: 18px;
 }
 
 .section1 .center-content {
@@ -171,6 +176,7 @@ main {
     font-weight: 500;
     font-size: 14px;
     padding-block: 5px;
+    line-height: 18px;
 }
 
 .section2 {
@@ -200,6 +206,8 @@ main {
 .section2 .left-content h4 {
     font-weight: 550;
     font-size: 14px;
+    line-height: 18px;
+    padding-bottom:5px;
 }
 
 
@@ -629,7 +637,7 @@ main {
 
 .section6 .top-content h3 {
     color: #FCF8F9;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 14px;
     line-height: 20px;
 }
@@ -799,14 +807,16 @@ main {
 
 .section8 .explore-btn {
     background-color: #151515;
-    color: #fff;
+    color: #FCF8F9bb;
     padding: 5px 10px;
     border: none;
     border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .section8 .explore-btn i {
-    color: #fff;
+    color: #FCF8F9bb;
 }
 
 .section8 .circle {
@@ -854,12 +864,12 @@ main {
 
 .section9 .discover-btn {
     background-color: #FEC9D0;
-    color: #151515;
+    color: #151515bb;
     padding: 8px 20px;
     border: none;
     border-radius: 25px;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .section9 .discover-btn i {
