@@ -766,6 +766,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .section8 .content {
@@ -779,6 +782,8 @@ main {
 .section8 img {
     height: 100%;
     object-fit: contain;
+    position: relative;
+    z-index: 2;
 }
 
 .section8 h3 {
@@ -802,6 +807,19 @@ main {
 
 .section8 .explore-btn i {
     color: #fff;
+}
+
+.section8 .circle {
+    width: auto;
+    aspect-ratio: 1/1;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #FCE5E6;
+    bottom: -40%;
+    right: 0%;
+    z-index: 1;
+    transform: translateX(40%);
 }
 
 .section9 {
