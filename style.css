@@ -879,18 +879,3 @@ main {
     font-size: 14px;
 }
 
-@media (max-width:640px) {
-    main {
-        height: auto;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.3fr 0.5fr 0.3fr 0.7fr 0.5fr 0.5fr;
-        grid-template-areas:
-            "logo logo"
-            "dashboard dashboard"
-            "views users"
-            "progress team"
-            "girls fonts"
-            "explore explore"
-        ;
-    }
-}
